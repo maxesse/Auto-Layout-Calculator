@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		565ECBC62032F78200761614 /* Auto Layout Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565ECBC62032F78200761614 /* Max Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Max Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		565ECBC92032F78200761614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		565ECBCB2032F78200761614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		565ECBCE2032F78200761614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		565ECBC72032F78200761614 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				565ECBC62032F78200761614 /* Auto Layout Calculator.app */,
+				565ECBC62032F78200761614 /* Max Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		565ECBC52032F78200761614 /* Auto Layout Calculator */ = {
+		565ECBC52032F78200761614 /* Max Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 565ECBD82032F78200761614 /* Build configuration list for PBXNativeTarget "Auto Layout Calculator" */;
+			buildConfigurationList = 565ECBD82032F78200761614 /* Build configuration list for PBXNativeTarget "Max Calculator" */;
 			buildPhases = (
 				565ECBC22032F78200761614 /* Sources */,
 				565ECBC32032F78200761614 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Auto Layout Calculator";
+			name = "Max Calculator";
 			productName = "Auto Layout Calculator";
-			productReference = 565ECBC62032F78200761614 /* Auto Layout Calculator.app */;
+			productReference = 565ECBC62032F78200761614 /* Max Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 565ECBC12032F78200761614 /* Build configuration list for PBXProject "Auto Layout Calculator" */;
+			buildConfigurationList = 565ECBC12032F78200761614 /* Build configuration list for PBXProject "Max Calculator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				565ECBC52032F78200761614 /* Auto Layout Calculator */,
+				565ECBC52032F78200761614 /* Max Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maxsanna.Auto-Layout-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,14 +296,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maxsanna.Auto-Layout-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		565ECBC12032F78200761614 /* Build configuration list for PBXProject "Auto Layout Calculator" */ = {
+		565ECBC12032F78200761614 /* Build configuration list for PBXProject "Max Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				565ECBD62032F78200761614 /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		565ECBD82032F78200761614 /* Build configuration list for PBXNativeTarget "Auto Layout Calculator" */ = {
+		565ECBD82032F78200761614 /* Build configuration list for PBXNativeTarget "Max Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				565ECBD92032F78200761614 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Auto Layout Calculator.xcodeproj">
+      location = "self:/Users/maxesse/Developer/Udemy/Auto Layout Calculator/Max Calculator.xcodeproj">
    </FileRef>
 </Workspace>
