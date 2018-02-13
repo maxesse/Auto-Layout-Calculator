@@ -39,66 +39,13 @@ class ViewController: UIViewController {
             if displayLabelText != "0" {
                 displayLabelText = "\(displayLabelText)0"
             }
-        case 1:                                                 // 1
+        case 1,2,3,4,5,6,7,8,9,10:                              // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
             if displayLabelText == "0" {
-                displayLabelText = "1"
+                displayLabelText = "\(sender.tag)"
             } else {
-                displayLabelText = "\(displayLabelText)1"
+                displayLabelText = "\(displayLabelText)\(sender.tag)"
             }
-        case 2:                                                 // 2
-            if displayLabelText == "0" {
-                displayLabelText = "2"
-            } else {
-                displayLabelText = "\(displayLabelText)2"
-            }
-        case 3:                                                 // 3
-            if displayLabelText == "0" {
-                displayLabelText = "3"
-            } else {
-                displayLabelText = "\(displayLabelText)3"
-            }
-        case 4:                                                 // 4
-            if displayLabelText == "0" {
-                displayLabelText = "4"
-            } else {
-                displayLabelText = "\(displayLabelText)4"
-            }
-        case 5:                                                 // 5
-            if displayLabelText == "0" {
-                displayLabelText = "5"
-            } else {
-                displayLabelText = "\(displayLabelText)5"
-            }
-        case 6:                                                 // 6
-            if displayLabelText == "0" {
-                displayLabelText = "6"
-            } else {
-                displayLabelText = "\(displayLabelText)6"
-            }
-        case 7:                                                 // 7
-            if displayLabelText == "0" {
-                displayLabelText = "7"
-            } else {
-                displayLabelText = "\(displayLabelText)7"
-            }
-        case 8:                                                 // 8
-            if displayLabelText == "0" {
-                displayLabelText = "8"
-            } else {
-                displayLabelText = "\(displayLabelText)8"
-            }
-        case 9:                                                 // 9
-            if displayLabelText == "0" {
-                displayLabelText = "9"
-            } else {
-                displayLabelText = "\(displayLabelText)9"
-            }
-        case 10:                                                // 10
-            if displayLabelText == "0" {
-                displayLabelText = "0."
-            } else {
-                displayLabelText = "\(displayLabelText)."
-            }
+        
         case 20:                                                // Addition
             if lastOperation == "" {
                 if let displayLabelDouble = Double(displayLabelText) {
