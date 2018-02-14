@@ -48,13 +48,18 @@ class ViewController: UIViewController {
                 displayLabelText = "\(displayLabelText)\(sender.tag)"
             }
         
-        case 1,2,3,4,5,6,7,8,9,10:                              // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        case 1,2,3,4,5,6,7,8,9:                              // 1, 2, 3, 4, 5, 6, 7, 8, 9
             if displayLabelText == "0" {
                 displayLabelText = "\(sender.tag)"
             } else {
                 displayLabelText = "\(displayLabelText)\(sender.tag)"
             }
-        
+        case 10:
+            if displayLabelText == "0" {
+                displayLabelText = "0."
+            } else {
+                displayLabelText = "\(displayLabelText)."
+            }
         case 20:                                                // Addition
             operation(selectedOperationKey: "+")
         case 21:                                                // Subtraction
